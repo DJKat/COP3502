@@ -1,0 +1,52 @@
+>javac Cowsay.java
+>java Cowsay Hello World!
+Hello World! 
+       \
+        \
+         \
+        ^__^
+        (oo)\_______
+        (__)\       )\/\
+            ||----w |
+            ||     ||
+
+
+>java Cowsay -n kitteh Moew-Moew!
+Moew-Moew! 
+       \
+        \
+         \
+       ("`-'  '-/") .___..--' ' "`-._
+         ` *_ *  )    `-.   (      ) .`-.__. `)
+         (_Y_.) ' ._   )   `._` ;  `` -. .-'
+      _.. `--'_..-_/   /--' _ .' ,4
+   ( i l ),-''  ( l i),'  ( ( ! .-'
+
+
+>java Cowsay -l
+Regular cows available: Cows available: heifer kitteh dragon ice-dragon 
+File cows available: Cows available: moose turkey turtle tux 
+>java Cowsay -n ninja Hello world!
+Could not find ninja cow!
+
+>java Cowsay -f tux Do you have any herring?
+Do you have any herring? 
+
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
+
+>java Cowsay -f alien Earth is ours!
+Could not find alien cow!
+
+>java Cowsay -f kitteh MEOW!!!
+Could not find kitteh cow!
+
+>java Cowsay -n tux How about tuna?
+Could not find tux cow!
+
